@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello World this is updated code after ci/cd integration!');
+  res.send('hi iam here to prove my pipeline works!');
 });
 
 app.listen(port, () => {
